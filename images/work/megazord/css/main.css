@@ -1,0 +1,71 @@
+body {
+	background-color: papayawhip;
+}
+
+#mainSVG {
+	width: 80%; 
+	height: 900px;
+	margin-top: 20px;
+    margin: 2% 0px 0px 9%;
+}
+
+
+
+.st6{
+	fill:none;
+	stroke:#FFFFFF;
+}
+.st7{
+	fill:#FFFFFF;
+}
+
+	
+	.st8
+{
+  fill:none;
+  stroke:#000000;
+  stroke-width:0.5;
+}
+
+.st9 {
+	font-family:'MyriadPro-Regular';
+}
+
+.st10 {
+	font-size:12;
+}
+	
+.back {
+	fill: none;
+	stroke: #000000;
+	stroke-width:1;
+}	
+.outline {
+	fill: none;
+	stroke: #000000;
+	stroke-width:2;
+}
+
+.hover {
+	opacity: 0.5;
+}
+/*
+.st10
+{
+  fill : #FFFFFF;
+  stroke : #000000;
+  stroke-width : 1px;
+}
+
+
+#globe, .globe {
+	  fill : #3E479D;
+	  stroke : #000000;
+	  stroke-width : 0px;
+}
+*/
+
+.redFadeIn {
+	transition: fill 1s ease;
+    fill: red;
+}

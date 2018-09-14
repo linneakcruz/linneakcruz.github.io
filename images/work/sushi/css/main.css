@@ -1,0 +1,12 @@
+body {
+	background-color: #c8eaf8;
+	max-height: 1000px;
+        min-height: 789px;
+        min-width: 900px;
+}
+
+#sushi {
+    margin: 10px auto;
+	width: 100%; 
+	height: 900px;
+}
