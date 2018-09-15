@@ -1,12 +1,18 @@
 body {
 	background-color: papayawhip;
+    text-align:center;
+    color: #999999;
+    font-size:0.7em;
+    font-family: sans-serif;
+    line-height:1em;
+    padding-top: 10px;
 }
 
 #mainSVG {
 	width: 80%; 
-	height: 900px;
+	height: 850px;
 	margin-top: 20px;
-    margin: 2% 0px 0px 9%;
+    margin: 1% 0px 0px 0%;
 }
 
 
