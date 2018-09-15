@@ -73,7 +73,7 @@ $('document').ready(function () {
 
             //place href as img src value
             $('#content').html('<img src="' + image_href + '" />');
-            $('div.imginfo').html(image_info)
+            $('div.imginfo').html(image_info);
 
             //show lightbox window - you could use .show('fast') for a transition
             $('#lightbox').show();
