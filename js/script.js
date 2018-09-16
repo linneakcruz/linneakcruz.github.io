@@ -73,7 +73,6 @@ $('document').ready(function () {
 
             //place href as img src value
             $('#content').html('<img src="' + image_href + '" />');
-            $('div.imginfo').html(image_info);
 
             //show lightbox window - you could use .show('fast') for a transition
             $('#lightbox').show();
@@ -88,7 +87,7 @@ $('document').ready(function () {
                 '</div>' +
                 '<div class="imginfo">' +
                 image_info + '</div>'
-            '</div>';
+                '</div>';
 
             //insert lightbox HTML into page
             $('body').append(lightbox);

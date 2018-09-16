@@ -7,7 +7,15 @@ body {
     margin: 0;
 }
 
-a {
+.nav a {
+    padding: 14px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+}
+
+.categories a {
     padding: 14px 45px;
     text-align: center;
     text-decoration: none;
@@ -285,6 +293,7 @@ div.sectionFour a {
     text-align: left;
     font-size: 0.8em;
     display: inline-block;
+    line-height:1.35em;
 }
 
 .half input {
@@ -313,7 +322,7 @@ div.sectionFour a {
     background-color: #57eac7;
     cursor: pointer;
     color: white;
-    font-size: 1em;
+    font-size: 1.5em;
     font-family: 'Quicksand', sans-serif;
     display: inline-block;
     border-radius: 2px;
@@ -447,98 +456,561 @@ footer {
 }
 
 /* -----------------------------RESPONSIVE CODE-----------------------------*/
-/*
-@media (max-width:1500px) {
-    .sectionOne img {
-        width: 1000px;
-    }
-}
 
-@media (max-width:900px) {
-    h1 {
-        font-size: 2.5em;
+@media (max-width:768px) {
+    section.projects img {
+
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    }
+
+    section.projects a {
+        padding: 0;
+    }
+
+    section.projects a:hover {}
+
+    section.projects {
+
+        max-width: 100%;
+        display: inline-block;
+        margin: 10px;
+        padding: 0px;
+    }
+
+    /* LOGO */
+
+    .name {
+        width: 100%;
         text-align: center;
+        min-width: 300px;
+        vertical-align: top;
+        margin: 0 auto;
+        margin-top: 25px;
     }
 
-    .sectionOne img {
-        width: 900px;
+    .name img {
+
+        max-width: 65%;
     }
+
+    /* NAV */
+
+    .nav {
+        width: 100%;
+        text-align: center;
+        min-width: 300px;
+        vertical-align: top;
+        margin: 0 auto;
+    }
+
+    .nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        font-size: 1.3em;
+        transition: all 0.4s ease;
+    }
+
+    /* Categories Nav */    
+
+    ul.categories {
+        /* ADDED BY LINNEA 9/6/18 8:32PM LINE 180 - 181 */
+        list-style: none;
+        font-size: 1.18em;
+        line-height: 1.7em;
+        margin: 30px 0 20px 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    ul.categories li {
+        display: inline-block;
+
+    }
+
+    ul.categories li a {
+        color: darkgray;
+    /*        max-width: 23%;*/
+        display: inline-block;
+        padding: 0 1em;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    div.content img{
+            width: 30%;
+    }    
+
+    .half {
+            width: 100%;
+    }
+
+    .half ul{
+        font-size: 2em;
+    }
+
+    div.half ul li a {
+        line-height:1em;
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .half h3{
+        font-size: 3.5em;   
+        color: #8fd8c5;
+    }
+
+    .half p {
+        font-size: 1.5em;        
+    }
+
+    div.half b{
+        font-weight:900;
+        color: #8fd8c5;
+    }
+
+    .sectionFour h2 {
+        font-size: 7em;
+        line-height:0.95em;
+    }
+
+    .half input {
+        width: 100%;
+        padding: 10px 5px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 7px;
+        font-size: 2em;
+    }
+
+    .half textarea {
+        width: 100%;
+        padding: 10px 5px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 7px;
+        resize: vertical;
+        font-size: 2em;
+    }
+
+    /* lightbox */
+
+    #lightbox {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.85);
+    }
+
+    #lightbox p {
+
+        text-align: right;
+        color: #fff;
+        margin-right: 20px;
+        font-size: 2em;
+    }
+
+    #lightbox img {
+
+        box-shadow: 0 0 25px #111;
+        -webkit-box-shadow: 0 0 25px #111;
+        -moz-box-shadow: 0 0 25px #111;
+        max-width: 95%;
+        display: block;
+        margin: 50% auto 0 auto;
+    }
+
+    .imginfo {
+
+        margin: 20px auto;
+        text-align: center;
+        color: #fefefe;
+    }
+
+
+    
 }
 
-@media (max-width:873px) {
-    .nav {
-        font-size: 0.7em;
-        width: 100%;
+@media (max-width:1080px) {
+    section.projects img {
+
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
     }
+
+    section.projects a {
+        padding: 0;
+    }
+
+    section.projects a:hover {
+        
+    }
+
+    section.projects {
+
+        max-width: 20%;
+        display: inline-block;
+        margin: 10px;
+        padding: 0px;
+    }
+
+    /* LOGO */
 
     .name {
         width: 100%;
+        text-align: center;
+        min-width: 300px;
+        vertical-align: top;
+        margin: 0 auto;
+        margin-top: 25px;
     }
 
-    h1 {
-        font-size: 2.5em;
-        line-height: 0.1px;
+    .name img {
+
+        max-width: 55%;
     }
 
-    .sectionOne img {
-        width: 650px;
-    }
-}
+    /* NAV */
 
-@media (max-width:650px) {
-    h1 {
-        font-size: 2.5em;
-    }
-
-    .sectionOne img {
-        width: 500px;
-    }
-}
-
-@media (max-width:504px) {
     .nav {
-        font-size: 0.7em;
         width: 100%;
+        text-align: center;
+        min-width: 300px;
+        vertical-align: top;
+        margin: 0 auto;
     }
+
+    .nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        font-size: 0.8em;
+        transition: all 0.4s ease;
+    }
+
+    /* Categories Nav */    
+
+    ul.categories {
+        /* ADDED BY LINNEA 9/6/18 8:32PM LINE 180 - 181 */
+        list-style: none;
+        font-size: 0.75em;
+        line-height: 1.7em;
+        margin: 30px 0 20px 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    ul.categories li {
+        display: inline-block;
+
+    }
+
+    ul.categories li a {
+        color: darkgray;
+    /*        max-width: 23%;*/
+        display: inline-block;
+        padding: 0 1em;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    div.content img{
+            width: 70%;
+    }    
+
+    .half {
+            width: 100%;
+    }
+
+    .half ul{
+        font-size: 2em;
+    }
+
+    .half ul li a {
+        line-height:1em;
+    }
+
+    .half h3{
+        font-size: 3.5em;   
+        color: #8fd8c5;
+        line-height:1em;
+    }
+
+    .half p {
+        font-size: 1.5em;        
+    }
+
+    div.half b{
+        font-weight:900;
+        color: #8fd8c5;
+    }
+
+    .sectionFour h2 {
+        font-size: 7em;
+        line-height:0.95em;
+    }
+
+    .half input {
+        width: 100%;
+        padding: 10px 5px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 7px;
+        font-size: 2em;
+    }
+
+    .half textarea {
+        width: 100%;
+        padding: 10px 5px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 7px;
+        resize: vertical;
+        font-size: 2em;
+    }
+
+    /* lightbox */
+
+    #lightbox {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.85);
+    }
+
+    #lightbox p {
+
+        text-align: right;
+        color: #fff;
+        margin-right: 20px;
+        font-size: 2em;
+    }
+
+    #lightbox img {
+
+        box-shadow: 0 0 25px #111;
+        -webkit-box-shadow: 0 0 25px #111;
+        -moz-box-shadow: 0 0 25px #111;
+        max-width: 95%;
+        display: block;
+        margin: 50% auto 0 auto;
+    }
+
+    .imginfo {
+
+        margin: 20px auto;
+        text-align: center;
+        color: #fefefe;
+    }
+
+
+    
+}
+
+@media (max-width:1330px) {
+    section.projects img {
+
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    }
+
+    section.projects a {
+        padding: 0;
+    }
+
+    section.projects a:hover {
+        
+    }
+
+    section.projects {
+
+        max-width: 60%;
+        display: inline-block;
+        margin: 10px;
+        padding: 0px;
+    }
+
+    /* LOGO */
 
     .name {
         width: 100%;
+        text-align: center;
+        min-width: 300px;
+        vertical-align: top;
+        margin: 0 auto;
+        margin-top: 25px;
     }
 
-    h1 {
+    .name img {
+
+        max-width: 55%;
+    }
+
+    /* NAV */
+
+    .nav {
+        width: 100%;
+        text-align: center;
+        min-width: 300px;
+        vertical-align: top;
+        margin: 0 auto;
+    }
+
+    .nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        font-size: 0.8em;
+        transition: all 0.4s ease;
+    }
+
+    /* Categories Nav */    
+
+    ul.categories {
+        /* ADDED BY LINNEA 9/6/18 8:32PM LINE 180 - 181 */
+        list-style: none;
+        font-size: 0.75em;
+        line-height: 1.7em;
+        margin: 30px 0 20px 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    ul.categories li {
+        display: inline-block;
+
+    }
+
+    ul.categories li a {
+        color: darkgray;
+    /*        max-width: 23%;*/
+        display: inline-block;
+        padding: 0 1em;
+        margin: 0 auto;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    div.content img{
+            width: 70%;
+    }    
+
+    .half {
+            width: 100%;
+    }
+
+    .half ul{
         font-size: 2em;
     }
 
-    h2 {
-        font-size: 1.5em;
+    .half ul li a {
+        line-height:1em;
     }
 
-    p {
-        font-size: 0.9em;
+    .half h3{
+        font-size: 3.5em;   
+        color: #8fd8c5;
+        line-height:1em;
     }
 
-    .sectionOne img {
-        width: 375px;
+    .half p {
+        font-size: 1.5em;        
     }
-}
 
-@media (max-width:400px) {
-    h1 {
+    div.half b{
+        font-weight:900;
+        color: #8fd8c5;
+    }
+
+    .sectionFour h2 {
+        font-size: 7em;
+        line-height:0.95em;
+    }
+
+    .half input {
+        width: 100%;
+        padding: 10px 5px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 7px;
         font-size: 2em;
     }
 
-    .sectionOne img {
-        width: 325px;
-    }
-}
-
-@media (max-width:300px) {
-    h1 {
+    .half textarea {
+        width: 100%;
+        padding: 10px 5px;
+        background-color: white;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        display: inline-block;
+        margin: 7px;
+        resize: vertical;
         font-size: 2em;
     }
 
-    .sectionOne img {
-        width: 300px%;
+    /* lightbox */
+
+    #lightbox {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.85);
     }
+
+    #lightbox p {
+
+        text-align: right;
+        color: #fff;
+        margin-right: 20px;
+        font-size: 2em;
+    }
+
+    #lightbox img {
+
+        box-shadow: 0 0 25px #111;
+        -webkit-box-shadow: 0 0 25px #111;
+        -moz-box-shadow: 0 0 25px #111;
+        max-width: 95%;
+        display: block;
+        margin: 50% auto 0 auto;
+    }
+
+    .imginfo {
+
+        margin: 20px auto;
+        text-align: center;
+        color: #fefefe;
+    }
+
+
+    
 }
-*/
+
+
+
