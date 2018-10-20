@@ -12,7 +12,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    color: #ffffff;
+    color: #949195;
 }
 
 .categories a {
@@ -132,10 +132,9 @@ b {
     top: 0;
     width: 100%;
     margin: 0 auto;
-    /*    background-image: url("/images/background.png");*/
+/*    background-image: url("/images/background.png");*/
     color: #333333;
-    background-color: #f4f4f4;
-    background-image: url('/images/background.png');
+    background-color: #fff;
     padding: 0;
     /*    z-index: 1;*/
 }
@@ -151,7 +150,7 @@ b {
 
 .name img {
 
-    max-width: 35%;
+    width: 25%;
 }
 
 .nav {
@@ -204,7 +203,7 @@ div.half h2 {
 
 /* -----------------------------CONTENT -----------------------------*/
 .intro {
-    background-color: url("/images/background.png");
+/*    background-color: url("/images/background.png");*/
 }
 
 .container {
@@ -457,7 +456,7 @@ footer {
 
 /* -----------------------------RESPONSIVE CODE-----------------------------*/
 
-@media (max-width:768px) {
+ @media (min-width:1025px) {
     section.projects img {
 
     width: 100%;
@@ -470,17 +469,19 @@ footer {
         padding: 0;
     }
 
-    section.projects a:hover {}
+    section.projects a:hover {
+        
+    }
 
     section.projects {
 
-        max-width: 100%;
+        max-width: 60%;
         display: inline-block;
         margin: 10px;
         padding: 0px;
     }
 
-    /* LOGO */
+    LOGO
 
     .name {
         width: 100%;
@@ -493,10 +494,10 @@ footer {
 
     .name img {
 
-        max-width: 65%;
+        max-width: 55%;
     }
 
-    /* NAV */
+    NAV
 
     .nav {
         width: 100%;
@@ -510,16 +511,16 @@ footer {
         list-style: none;
         padding: 0;
         text-align: center;
-        font-size: 1.3em;
+        font-size: 0.8em;
         transition: all 0.4s ease;
     }
 
-    /* Categories Nav */    
+    Categories Nav    
 
     ul.categories {
-        /* ADDED BY LINNEA 9/6/18 8:32PM LINE 180 - 181 */
+/*        ADDED BY LINNEA 9/6/18 8:32PM LINE 180 - 181*/
         list-style: none;
-        font-size: 1.18em;
+        font-size: 0.75em;
         line-height: 1.7em;
         margin: 30px 0 20px 0;
         width: 100%;
@@ -533,7 +534,7 @@ footer {
 
     ul.categories li a {
         color: darkgray;
-    /*        max-width: 23%;*/
+    max-width: 23%;
         display: inline-block;
         padding: 0 1em;
         margin: 0 auto;
@@ -541,7 +542,7 @@ footer {
     }
 
     div.content img{
-            width: 30%;
+            width: 70%;
     }    
 
     .half {
@@ -552,16 +553,14 @@ footer {
         font-size: 2em;
     }
 
-    div.half ul li a {
+    .half ul li a {
         line-height:1em;
-        padding: 0;
-        margin: 0;
-        
     }
 
     .half h3{
         font-size: 3.5em;   
         color: #8fd8c5;
+        line-height:1em;
     }
 
     .half p {
@@ -601,7 +600,7 @@ footer {
         font-size: 2em;
     }
 
-    /* lightbox */
+    lightbox
 
     #lightbox {
 
@@ -640,9 +639,9 @@ footer {
 
 
     
-}
+} 
 
-@media (max-width:1080px) {
+@media (min-width:769px) {
     section.projects img {
 
     width: 100%;
@@ -827,8 +826,8 @@ footer {
     
 }
 
-@media (max-width:1330px) {
-    section.projects img {
+@media (max-width:768px) {
+    section.projects a {
 
     width: 100%;
     display: inline-block;
@@ -840,13 +839,11 @@ footer {
         padding: 0;
     }
 
-    section.projects a:hover {
-        
-    }
+    section.projects a:hover {}
 
     section.projects {
 
-        max-width: 60%;
+        max-width: 100%;
         display: inline-block;
         margin: 10px;
         padding: 0px;
@@ -865,7 +862,7 @@ footer {
 
     .name img {
 
-        max-width: 55%;
+        max-width: 65%;
     }
 
     /* NAV */
@@ -882,7 +879,7 @@ footer {
         list-style: none;
         padding: 0;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 1.3em;
         transition: all 0.4s ease;
     }
 
@@ -891,7 +888,7 @@ footer {
     ul.categories {
         /* ADDED BY LINNEA 9/6/18 8:32PM LINE 180 - 181 */
         list-style: none;
-        font-size: 0.75em;
+        font-size: 1.18em;
         line-height: 1.7em;
         margin: 30px 0 20px 0;
         width: 100%;
@@ -913,7 +910,7 @@ footer {
     }
 
     div.content img{
-            width: 70%;
+            width: 30%;
     }    
 
     .half {
@@ -924,14 +921,16 @@ footer {
         font-size: 2em;
     }
 
-    .half ul li a {
+    div.half ul li a {
         line-height:1em;
+        padding: 0;
+        margin: 0;
+        
     }
 
     .half h3{
         font-size: 3.5em;   
         color: #8fd8c5;
-        line-height:1em;
     }
 
     .half p {
@@ -1007,10 +1006,5 @@ footer {
         text-align: center;
         color: #fefefe;
     }
-
-
     
 }
-
-
-

@@ -1,0 +1,455 @@
+/*-----------------------------BODY-----------------------------*/
+body {
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    color: #333333;
+    margin: 0;
+}
+
+.nav a {
+    padding: 14px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #949295;
+}
+
+.categories a {
+    padding: 14px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+}
+
+a:link,
+a:visted {
+    font-family: 'Quicksand', sans-serif;
+    color: #333;
+    padding: 100px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:active {
+    background-color: #e5a3ad;
+    color: #fff;
+}
+
+a:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+/*-----------------------------LIGHT BOX-----------------------------*/
+#lightbox {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.7);
+}
+
+#lightbox p {
+    
+    text-align: right;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 2em;
+}
+
+#lightbox img {
+    
+    box-shadow: 0 0 25px #111;
+    -webkit-box-shadow: 0 0 25px #111;
+    -moz-box-shadow: 0 0 25px #111;
+    max-width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+.imginfo {
+    
+    margin: 20px auto;
+    text-align: center;
+    color: #fefefe;
+}
+
+/* ----------------TEXT/FONTS BOLDS,ITALICS,ETC -----------------------*/
+p {
+    line-height: 13pt;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8em;
+    color: darkgray;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4em;
+    text-align: center;
+    line-height: 0.1em;
+    color: darkgray;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    line-height: 0.1em;
+    color: darkgray;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    line-height: 2px;
+    color: darkgray;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 2px;
+    color: darkgray;
+}
+
+b {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: darkgray;
+}
+
+/* -----------------------------NAVBAR----------------------------- */
+.navigation {
+    overflow: hidden;
+    /*    position: fixed;*/
+    top: 0;
+    width: 100%;
+    margin: 0 auto;
+    /*    background-image: url("/images/background.png");*/
+    color: #333333;
+    background-color: #fff;
+    padding: 0;
+    /*    z-index: 1;*/
+}
+
+.name {
+    width: 100%;
+    text-align: center;
+    min-width: 300px;
+    vertical-align: top;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.name img {
+
+    width: 25%;
+}
+
+.nav {
+    width: 69%;
+    text-align: center;
+    min-width: 300px;
+    vertical-align: top;
+    margin: 0 auto;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    font-size: 0.7em;
+    transition: all 0.4s ease;
+}
+
+.nav ul li {
+    display: inline-block;
+    padding: 0px;
+    line-height: 0.1em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+
+hr {
+    color: lightgrey;
+    border: 0.25px solid;
+    width: 75%;
+}
+
+/* ----------------------------- ABOUT ME ---------------------------*/
+
+div.half p {
+    text-align: left;
+    line-height: 1.6em;
+}
+
+div.half h3 {
+    text-align: center;
+}
+
+div.half h2 {
+    text-align: left;
+}
+
+/* -----------------------------CONTENT -----------------------------*/
+.intro {
+    background-color: url("/images/background.png");
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+div.content img {
+    width: 60%;
+    text-align: center;
+}
+
+ul.categories {
+    /* ADDED BY LINNEA 9/6/18 8:32PM LINE 180 - 181 */
+    list-style: none;
+    font-size: 0.75em;
+    line-height: 1.7em;
+    margin: 30px 0 20px 0;
+    width: 100%;
+    padding: 0;
+}
+
+ul.categories li {
+    display: inline-block;
+
+}
+
+ul.categories li a {
+    color: #57B0A9;
+/*        max-width: 23%;*/
+    display: inline-block;
+    padding: 0 1em;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ul.categories li img {
+
+/*        width: 100%;*/
+}
+
+section.projects img {
+
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+section.projects a {
+    padding: 0;
+}
+
+section.projects a:hover {}
+
+section.projects {
+
+    max-width: 24%;
+    display: inline-block;
+    margin: 0;
+    padding: 0px;
+}
+
+/* -----------------------------CONTACT FORM----------------------------- */
+
+div.sectionFour ul {
+    color: darkgray;
+}
+
+div.sectionFour a {
+    color: darkgray;
+}
+
+.half {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+    min-width: 300px;
+    vertical-align: top;
+}
+
+.half ul {
+    list-style: none;
+    text-align: left;
+    font-size: 0.8em;
+    display: inline-block;
+    line-height:1.35em;
+}
+
+.half input {
+    width: 70%;
+    padding: 10px 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 7px;
+}
+
+.half textarea {
+    width: 70%;
+    padding: 10px 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 7px;
+    resize: vertical;
+}
+
+#send {
+    padding: 10px 60px;
+    background-color: #57eac7;
+    cursor: pointer;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Quicksand', sans-serif;
+    display: inline-block;
+    border-radius: 2px;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+
+}
+
+#send:hover {
+    background: #e5a3ad;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+#send:active {
+    background: #cc919a;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+#error {
+    display: none;
+    color: red;
+    font-size: 1em;
+}
+
+/* -----------------------------END OF CONTACT FORM---------------------- */
+.content {
+    /*    margin-top: 300px;*/
+}
+
+.sectionOne {
+    width: 100%;
+    background-color: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.sectionOne a {
+
+    margin: 0 auto;
+    padding: 0;
+/*    width: 22%;*/
+}
+
+div.sectionOne a img {
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+}
+
+.viewproject {
+	
+    width: 100px;
+    display: none;
+}
+
+.resumesection {
+    width: 100%;
+    background-color: none;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div.resumesection a {
+
+    margin: 0 auto;
+    padding: 0;
+    max-width: 80%;
+    margin: 1em 0 0 0;
+}
+
+div.resumesection a img {
+
+    width: 60%;
+    padding: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.sectionTwo {
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.sectionThree {
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.sectionFour {
+    padding: 25px;
+    font-size: 1em;
+    margin: 0 auto;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    background-color: #444;
+    width: 99%;
+    color: #d7d7d7;
+    text-align: center;
+    padding: 10px 5px 10px 5px;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.75em;
+}
+
+
+.about {
+    display: inline-block;
+    width: 31%;
+    height: 200px;
+    list-style: none;
+    text-align: left;
+    padding: 10px;
+}
+
+.about h3 {
+    text-align: left;
+}
