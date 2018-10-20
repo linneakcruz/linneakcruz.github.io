@@ -51,11 +51,11 @@ a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,.7);
+    background: rgba(0, 0, 0, .7);
 }
 
 #lightbox p {
-    
+
     text-align: right;
     color: #fff;
     margin-right: 20px;
@@ -63,7 +63,7 @@ a:hover {
 }
 
 #lightbox img {
-    
+
     box-shadow: 0 0 25px #111;
     -webkit-box-shadow: 0 0 25px #111;
     -moz-box-shadow: 0 0 25px #111;
@@ -73,7 +73,7 @@ a:hover {
 }
 
 .imginfo {
-    
+
     margin: 20px auto;
     text-align: center;
     color: #fefefe;
@@ -234,7 +234,7 @@ ul.categories li {
 
 ul.categories li a {
     color: #57B0A9;
-/*        max-width: 23%;*/
+    /*        max-width: 23%;*/
     display: inline-block;
     padding: 0 1em;
     margin: 0 auto;
@@ -244,7 +244,7 @@ ul.categories li a {
 
 ul.categories li img {
 
-/*        width: 100%;*/
+    /*        width: 100%;*/
 }
 
 section.projects img {
@@ -292,7 +292,7 @@ div.sectionFour a {
     text-align: left;
     font-size: 0.8em;
     display: inline-block;
-    line-height:1.35em;
+    line-height: 1.35em;
 }
 
 .half input {
@@ -365,7 +365,7 @@ div.sectionOne a {
 
     margin: 0 auto;
     padding: 0;
-/*    width: 22%;*/
+    /*    width: 22%;*/
 }
 
 div.sectionOne a img {
@@ -378,7 +378,7 @@ div.sectionOne a img {
 }
 
 .viewproject {
-	
+
     width: 100px;
     display: none;
 }
@@ -452,4 +452,70 @@ footer {
 
 .about h3 {
     text-align: left;
+}
+
+/* -----------------------------Responsive Code---------------------- */
+
+@media (max-width: 1200px) {
+
+    div.half h3 {
+
+        font-size: 1.5em;
+    }
+
+    div.resumesection a img {
+
+        width: 100%;
+    }
+
+    div.sectionFour {
+
+        width: 100%;
+    }
+
+    div.sectionFour center {
+
+        margin-top: 4em;
+    }
+
+    #lightbox {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, .7);
+    }
+
+    #lightbox p {
+
+        text-align: right;
+        color: #fff;
+        margin-right: 20px;
+        font-size: 2em;
+    }
+
+    #lightbox img {
+
+        box-shadow: 0 0 25px #111;
+        -webkit-box-shadow: 0 0 25px #111;
+        -moz-box-shadow: 0 0 25px #111;
+        max-width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .imginfo {
+
+        margin: 20px auto;
+        text-align: center;
+        color: #fefefe;
+    }
+    
+    #content img {
+        
+        max-height: 350px;
+    }
+    
 }
