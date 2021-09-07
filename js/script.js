@@ -21,6 +21,7 @@ $('document').ready(function () {
         photo.hide();
         design.hide();
         video.hide();
+	logos.hide();
     })
 
     $('#photo').click(function () {
@@ -29,10 +30,20 @@ $('document').ready(function () {
         photo.show();
         design.hide();
         video.hide();
+	logos.hide();
     })
 
     $('#design').click(function () {
 
+        illustrations.hide();
+        photo.hide();
+        design.show();
+	logos.hide();
+        video.hide();
+    })
+	
+    $('#logos').click(function () {
+	logos.show();
         illustrations.hide();
         photo.hide();
         design.show();
@@ -45,6 +56,7 @@ $('document').ready(function () {
         photo.hide();
         design.hide();
         video.show();
+	logos.hide();
     })
 
     $('#showall').click(function () {
