@@ -10,7 +10,7 @@ $('document').ready(function () {
     //    });
 
     illustrations = $('div.projectarray section.illustrations');
-    photo = $('div.projectarray section.photo');
+    //photo = $('div.projectarray section.photo');
     design = $('div.projectarray section.design');
     video = $('div.projectarray section.video');
     logos = $('div.projectarray section.logos');
@@ -20,7 +20,7 @@ $('document').ready(function () {
     $('#illustrations').click(function () {
 
         illustrations.show();
-        photo.hide();
+        //photo.hide();
         design.hide();
         video.hide();
 	logos.hide();
@@ -28,29 +28,28 @@ $('document').ready(function () {
     })
 	
     $('#mail').click(function () {
-
+        mail.show():
         illustrations.hide();
-	mail.show():
-        photo.hide();
+       // photo.hide();
         design.hide();
         video.hide();
 	logos.hide();
     })
 
-    $('#photo').click(function () {
+   // $('#photo').click(function () {
 
-        illustrations.hide();
-	mail.hide();
-        photo.show();
-        design.hide();
-        video.hide();
-	logos.hide();
-    })
-
+       // illustrations.hide();
+	//mail.hide();
+        //photo.show();
+       // design.hide();
+       // video.hide();
+	//logos.hide();
+   // })
+	
     $('#design').click(function () {
 
         illustrations.hide();
-        photo.hide();
+       // photo.hide();
         design.show();
 	logos.hide();
         video.hide();
@@ -60,7 +59,7 @@ $('document').ready(function () {
     $('#logos').click(function () {
 	logos.show();
         illustrations.hide();
-        photo.hide();
+        //photo.hide();
         design.hide();
         video.hide();
 	mail.hide();
@@ -68,12 +67,11 @@ $('document').ready(function () {
 
     $('#video').click(function () {
 
-        illustrations.hide();
-        photo.hide();
-        design.hide();
         video.show();
-	mail.hide();
+	illustrations.hide();
 	logos.hide();
+	design.hide();
+	mail.hide();
     })
 
     $('#showall').click(function () {
