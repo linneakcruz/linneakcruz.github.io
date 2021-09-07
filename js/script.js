@@ -1,4 +1,4 @@
-var illustrations, photo, design, video, showall;
+var illustrations, logos, photo, design, video, showall;
 
 
 
