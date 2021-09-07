@@ -47,7 +47,7 @@ $('document').ready(function () {
 	logos.show();
         illustrations.hide();
         photo.hide();
-        design.show();
+        design.hide();
         video.hide();
     })
 
