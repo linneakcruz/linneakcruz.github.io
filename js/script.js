@@ -1,80 +1,60 @@
 var illustrations, logos, photo, design, video, mail, showall;
 
+$('document').ready(function(){
 
+illustrations = $('div.projectarray section.illustrations');
+logos = $('div.projectarray section.logos');
+design = $('div.projectarray section.design');
+video = $('div.projectarray section.video');
+mail = $('div.projectarray section.mail');
+showall = $('div.projectarray section');
 
-$('document').ready(function () {
+$('#illustrations').click(function() {
+illustrations.show();
+logos.hide();
+design.hide();
+video.hide();
+mail.hide();
 
-    //    $('.enter_link').click(function () {
-    //
-    //        $(this).parent('#splashscreen').fadeOut(500);
-    //    });
+})
 
-    illustrations = $('div.projectarray section.illustrations');
-    //photo = $('div.projectarray section.photo');
-    design = $('div.projectarray section.design');
-    video = $('div.projectarray section.video');
-    logos = $('div.projectarray section.logos');
-    mail = $('div.projectarray section.mail');
-    showall = $('div.projectarray section');
+$('#logos').click(function() {
+illustrations.hide();
+logos.show();
+design.hide();
+video.hide();
+mail.hide();
 
-    $('#illustrations').click(function () {
+})
 
-        illustrations.show();
-        //photo.hide();
-        design.hide();
-        video.hide();
-	logos.hide();
-	mail.hide();
-    })
-	
-    $('#mail').click(function () {
-        mail.show():
-        illustrations.hide();
-       // photo.hide();
-        design.hide();
-        video.hide();
-	logos.hide();
-    })
+$('#design').click(function() {
+illustrations.hide();
+logos.hide();
+design.show();
+video.hide();
+mail.hide();
 
-   // $('#photo').click(function () {
+})
 
-       // illustrations.hide();
-	//mail.hide();
-        //photo.show();
-       // design.hide();
-       // video.hide();
-	//logos.hide();
-   // })
-	
-    $('#design').click(function () {
+$('#video').click(function() {
+illustrations.hide();
+logos.hide();
+design.hide();
+video.show();
+mail.hide();
 
-        illustrations.hide();
-       // photo.hide();
-        design.show();
-	logos.hide();
-        video.hide();
-	mail.hide();
-    })
-	
-    $('#logos').click(function () {
-	logos.show();
-        illustrations.hide();
-        //photo.hide();
-        design.hide();
-        video.hide();
-	mail.hide();
-    })
+})
 
-    $('#video').click(function () {
+$('#mail').click(function() {
+illustrations.hide();
+logos.hide();
+design.hide();
+video.hide();
+mail.show();
 
-        video.show();
-	illustrations.hide();
-	logos.hide();
-	design.hide();
-	mail.hide();
-    })
+})
 
-    $('#showall').click(function () {
+$('#showall').click(function () {
 
         showall.show();
     })
