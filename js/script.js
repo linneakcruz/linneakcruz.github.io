@@ -13,6 +13,7 @@ $('document').ready(function () {
     photo = $('div.projectarray section.photo');
     design = $('div.projectarray section.design');
     video = $('div.projectarray section.video');
+    logos = $('div.projectarray section.logos');
     showall = $('div.projectarray section');
 
     $('#illustrations').click(function () {
