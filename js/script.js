@@ -1,4 +1,4 @@
-var illustrations, logos, photo, design, video, showall;
+var illustrations, logos, photo, design, video, mail, showall;
 
 
 
@@ -14,6 +14,7 @@ $('document').ready(function () {
     design = $('div.projectarray section.design');
     video = $('div.projectarray section.video');
     logos = $('div.projectarray section.logos');
+    mail = $('div.projectarray section.mail');
     showall = $('div.projectarray section');
 
     $('#illustrations').click(function () {
@@ -23,11 +24,23 @@ $('document').ready(function () {
         design.hide();
         video.hide();
 	logos.hide();
+	mail.hide();
+    })
+	
+    $('#mail').click(function () {
+
+        illustrations.hide();
+	mail.show():
+        photo.hide();
+        design.hide();
+        video.hide();
+	logos.hide();
     })
 
     $('#photo').click(function () {
 
         illustrations.hide();
+	mail.hide();
         photo.show();
         design.hide();
         video.hide();
@@ -41,6 +54,7 @@ $('document').ready(function () {
         design.show();
 	logos.hide();
         video.hide();
+	mail.hide();
     })
 	
     $('#logos').click(function () {
@@ -49,6 +63,7 @@ $('document').ready(function () {
         photo.hide();
         design.hide();
         video.hide();
+	mail.hide();
     })
 
     $('#video').click(function () {
@@ -57,6 +72,7 @@ $('document').ready(function () {
         photo.hide();
         design.hide();
         video.show();
+	mail.hide();
 	logos.hide();
     })
 
